@@ -1,6 +1,7 @@
 package com.example.screens;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -21,6 +22,16 @@ public class SecondActivity extends AppCompatActivity {
         secondTextView = findViewById(R.id.SecondActivityTextView);
         final String name = getIntent().getExtras().getString("name");
         secondTextView.setText(name);
+        mySecondButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goBackToMain();
+            }
+        });
+
+    }
+    void goBackToMain(){
+        finish();
 
 
     }
