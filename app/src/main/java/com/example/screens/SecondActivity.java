@@ -28,11 +28,8 @@ public class SecondActivity extends AppCompatActivity {
                 goBackToMain();
             }
         });
-
     }
     void goBackToMain(){
         finish();
-
-
     }
 }
