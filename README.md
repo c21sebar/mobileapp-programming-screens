@@ -46,8 +46,7 @@ Kopplade knappen i SecondActivity till att stänga SecondActivity och gå tillba
         finish();
     }
 ```
+Bilder på appen:
 
-
-Bilder läggs i samma mapp som markdown-filen.
-
-![](android.png)
+![](Screenshot_1_Main.png)
+![](Screenshot_2_SecondActivity.png)
